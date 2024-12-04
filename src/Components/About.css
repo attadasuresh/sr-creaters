@@ -1,0 +1,132 @@
+/* About.css */
+
+.about-page {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .about-hero {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .about-hero-image {
+    width: 100%;
+    height: auto;
+    filter: blur(5px) brightness(50%);
+    object-fit: cover;
+  }
+  
+  .about-hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .about-hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .about-hero-text p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-cards-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .about-card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-card p {
+    font-size: 1rem;
+    color: #e0e0e0;
+  }
+  
+  .about-content {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+  .about-heading-top{
+    color: white;
+  }
+  .about-section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .about-image {
+    flex: 1;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .about-cards-row {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .about-section {
+      flex-direction: column;
+    }
+  
+    .about-section.reverse {
+      flex-direction: column;
+    }
+  }
+  

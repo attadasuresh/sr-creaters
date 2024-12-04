@@ -63,7 +63,7 @@ body {
     color: #ffd700; /* Gold color */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), 0 0 25px rgba(255, 215, 0, 0.8); /* 3D effect with shadow */
     font-weight: bold;
-    font-size: 3.5rem; /* Adjust size as needed */
+    font-size: 3rem; /* Adjust size as needed */
 }
 .home-top-button {
     padding: 10px 20px;
@@ -430,3 +430,62 @@ h1, h2, h3 {
         flex-direction: column;
     }
 }
+.freelance-card {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .card-image {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+  }
+  
+  .text-content {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .text-content h2 {
+    font-size: 2rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .card-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .card-image {
+      width: 100%;
+    }
+  
+    .text-content {
+      width: 100%;
+    }
+  }
+  

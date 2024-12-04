@@ -27,9 +27,8 @@
   }
   
   .logo {
-    color: #ffffff; /* White logo for contrast */
-    font-size: 26px;
-    font-weight: bold;
+    height: 60px;
+    border-radius: 4px;
   }
   
   .nav-links {

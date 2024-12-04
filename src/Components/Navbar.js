@@ -11,7 +11,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <h1 className="logo">Portfolio</h1>
+        <a href="/">
+        <img className="logo" src="images/Screenshot 2024-12-04 113652.png" alt="logo" />
+        </a>
         <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
